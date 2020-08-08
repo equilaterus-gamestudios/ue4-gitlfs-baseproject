@@ -1,26 +1,26 @@
 # Unreal Engine file types.
-*.uasset filter=lfs diff=lfs merge=lfs -text
-*.umap filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text binary
+*.umap filter=lfs diff=lfs merge=lfs -text binary
 
 # Common Raw Content file types.
-*.blend filter=lfs diff=lfs merge=lfs -text
-*.fbx filter=lfs diff=lfs merge=lfs -text
-*.3ds filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.ai filter=lfs diff=lfs merge=lfs -text
-*.svg filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.xcf filter=lfs diff=lfs merge=lfs -text
-*.bmp filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.tif filter=lfs diff=lfs merge=lfs -text
-*.tiff filter=lfs diff=lfs merge=lfs -text
-*.tga filter=lfs diff=lfs merge=lfs -text
-*.targa filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.wav filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text binary
+*.fbx filter=lfs diff=lfs merge=lfs -text binary
+*.3ds filter=lfs diff=lfs merge=lfs -text binary
+*.psd filter=lfs diff=lfs merge=lfs -text binary
+*.ai filter=lfs diff=lfs merge=lfs -text binary
+*.svg filter=lfs diff=lfs merge=lfs -text binary
+*.png filter=lfs diff=lfs merge=lfs -text binary
+*.xcf filter=lfs diff=lfs merge=lfs -text binary
+*.bmp filter=lfs diff=lfs merge=lfs -text binary
+*.jpg filter=lfs diff=lfs merge=lfs -text binary
+*.jpeg filter=lfs diff=lfs merge=lfs -text binary
+*.tif filter=lfs diff=lfs merge=lfs -text binary
+*.tiff filter=lfs diff=lfs merge=lfs -text binary
+*.tga filter=lfs diff=lfs merge=lfs -text binary
+*.targa filter=lfs diff=lfs merge=lfs -text binary
+*.mp3 filter=lfs diff=lfs merge=lfs -text binary
+*.wav filter=lfs diff=lfs merge=lfs -text binary
 
 
 # Anything in `/RawContent` dir.
-/RawContent/**/* filter=lfs diff=lfs merge=lfs -text
+/RawContent/**/* filter=lfs diff=lfs merge=lfs -text binary
