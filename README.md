@@ -30,13 +30,21 @@ We recommend you to add UE4 files to the **/Content** folder (as you always do) 
   git lfs status
   ```
 
-* To see the list of files being tracked by git-lfs, run: 
+* To list files being tracked by git-lfs, run: 
 
   ```
   git lfs ls-files
   ```
+  
+* To list files not being tracked by git-lfs (after commit), run on *git bash*:
 
-* More info: https://github.com/git-lfs/git-lfs/wiki/Tutorial
+  ```
+  { git ls-files && git lfs ls-files | cut -d' ' -f3-; } | sort | uniq -u
+  ```
+
+* More info about [git lfs](https://github.com/git-lfs/git-lfs/wiki/Tutorial)
+
+* More info about [listing files not tracked by git lfs](https://stackoverflow.com/questions/42963854/list-files-not-tracked-by-git-lfs)
 
 ## Base projects
 
