@@ -1,10 +1,12 @@
-# ue4-gitlfs-baseproject
+# UE4 GitLFS Baseproject
+
+> Before using GIT on a UE4 project, we recommend you to read about [PlasticSCM](https://www.plasticscm.com/) (used by ourselves, it's user-friendly, has great features and a free plan) or [Helix Perforce](https://www.perforce.com/products/helix-core) (used by AAA studios, fully supported on UE4).
 
 Base files to start using Git LFS with UE4.
 
 ## Instructions
 
-1. Create your project repo. If you want some free and private repos with [LFS support](https://docs.microsoft.com/en-us/azure/devops/repos/git/manage-large-files?view=azure-devops) you can try [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/).
+1. Create your project repo. *If you want some free repos, read the final section of this README*.
 
 2. Install git lfs.
 
@@ -51,3 +53,16 @@ We recommend you to add UE4 files to the **/Content** folder (as you always do) 
 * git attributes configuration based on: https://github.com/MOZGIII/ue4-gitignore
 
 * git ignore based on: https://github.com/github/gitignore/blob/master/UnrealEngine.gitignore
+
+## Repos with Free LFS
+
+* Github and Gitlab support LFS but not for free.
+
+* If you want some free and private repos with [LFS support](https://docs.microsoft.com/en-us/azure/devops/repos/git/manage-large-files?view=azure-devops) you can try [Azure Repos](https://azure.microsoft.com/en-us/services/devops/repos/). 
+
+  * **Note 1:** As 2021, locks do not work as expected on Azure Repos with UE4.
+  
+  * **Note 2:** To avoid errors with Azure LFS, use this command on your repository directory: 
+    ```
+    git config http.version HTTP/1.1
+    ```` 
