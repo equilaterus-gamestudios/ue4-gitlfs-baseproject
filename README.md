@@ -1,6 +1,11 @@
 # UE4 GitLFS Baseproject
 
-> Before using GIT on UE4, we recommend you to read about [PlasticSCM](https://www.plasticscm.com/) (used by ourselves, it's user-friendly, has great features and a free plan) or [Helix Perforce](https://www.perforce.com/products/helix-core) (used by AAA studios, fully supported on UE4).
+> Please check this project! https://github.com/ProjectBorealis/UEGitPlugin. 
+
+Alternatives:
+* Again: https://github.com/ProjectBorealis/UEGitPlugin
+* [PlasticSCM](https://www.plasticscm.com/) (includes free plan).
+* [Helix Perforce](https://www.perforce.com/products/helix-core).
 
 Base files to start using Git LFS with UE4.
 
